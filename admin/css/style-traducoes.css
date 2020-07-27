@@ -1,0 +1,24 @@
+﻿
+    /****************** GERAL ******************/
+    .clear{clear:both;}
+
+    .contentor{width:960px;margin:0 auto;position: relative;margin-top: 30px;}
+    .conteudo{min-height:500px;}
+    .coluna-esquerda{width:65%;float:left;}
+    .coluna-direita{width:30%;float:right;}
+
+
+    /*** Lista ***/
+    .lista-item{width:100%;padding:1em;}
+    .lista-item:nth-last-child(odd){background:#EEE;}
+    .lista-item:nth-last-child(even){background:rgb(92, 91, 91);color:white;}
+    .lista-titulo{float:left;width:70%;padding-top:0.5em;}
+    .lista-data{float:left;width:20%;padding-top:0.5em;}
+    .lista-editar{float:left;width:10%;text-align: center;}
+    .editar{display:inline-block;height:35px;width:35px;background:url(../img/edit.png) no-repeat center;}
+
+    /*** Edit ***/
+    label{font-size:1.2em;display:block;padding-bottom:0.2em;font-weight:bold;}
+    .input-texto{display:block;border:1px solid #CCC;width:100%;padding:0.7em 1em;margin:0 0 2em 0;font-size:1em;font-family:inherit;color:#333;}
+    .caixa-texto{height:12em;font-family:inherit;}
+    .botao-submit{display:inline-block;background:#000;border:none;color:#FFF;cursor:pointer;padding:0.5em 2em;margin-top:2em;font-size:1.2em;border-radius:5px;}
